@@ -1,0 +1,28 @@
+p{
+    color:tomato;
+}
+/* This is heading style*/
+/*
+h2{
+    color:green
+}*/
+#firstHeading{
+    color:orangered
+}
+.secondHeading{
+    color:mediumvioletred;
+    font-style: italic
+}
+.thirdHeading{
+    font-size:30px;
+}
+table, th{
+    border:1px solid rebeccapurple
+}
+#two{
+    border:5px dotted hotpink
+}
+
+#two > p:nth-child(2) {
+    color:gold
+}
