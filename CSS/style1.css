@@ -1,0 +1,65 @@
+#maindiv{
+    widows: 50%;
+    border: 2px dashed rebeccapurple;
+    height: 50%;
+}
+h1{
+    color:#BB493B;
+    
+}
+body{
+    /*background-image:linear-gradient(
+       to left, red,aqua,pink,green
+    )
+    background-image: radial-gradient(
+        red,aqua,pink,green
+    )
+    background-image:url("a.jpg")
+    */
+}
+
+#outer{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    margin: 50px;
+    box-shadow: 10px 30px 5px gray
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 100%;
+    visibility: block;
+    overflow-y:auto;
+    
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+#hk{
+opacity: .5;
+}
+
+#hk:hover{
+    opacity: 1;
+}
+
+#secondImage{
+    height: 100px;
+    width:100px;
+}
+
+#secondImage:hover{
+    /*height: 300px;
+    width:300px;
+    transition: width 2s;
+    transform: rotate(40deg)*/
+    transform: skewY(40deg)
+}

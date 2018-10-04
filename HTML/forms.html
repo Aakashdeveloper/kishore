@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Employee Form</legend>
+                <label for="fname">Firstname*:</label>
+                <input type="text" 
+                    placeholder="firstname"
+                    id="fname"
+                    required
+                    >
+                <br/>
+                <label for="lname">Lastname</label>
+                <input type="text" 
+                        placeholder="lastname"
+                        id="lname"
+                    >
+                <br/>
+                <label for="email">Email</label>
+                <input type="email" 
+                        placeholder="a@a.com"
+                        id="email">
+                <br/>
+                Password:<input type="password"/><br/>
+                Date:<input type="date"><br/>
+                Url:<input type="url"><br/>
+                <label for="male">
+                    Male
+                </label>
+                <input type="radio" value="male" name="gender"/>
+                <label for="Female">
+                        FeMale
+                </label>
+                <input type="radio" value="female" name="gender"/><br/>
+                NodeJs<input type="checkbox" value="NodeJs"/>
+                ReactJs<input type="checkbox" value="Reactjs"/>
+                AWS<input type="checkbox" value="Aws"/><br/>
+                <label>City</label>
+                <select>
+                    <option>Newyork</option>
+                    <option>London</option>
+                    <option>Amsterdam</option>
+                </select><br/>
+                <textarea></textarea><br/>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
