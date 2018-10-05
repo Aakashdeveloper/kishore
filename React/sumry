@@ -16,6 +16,37 @@ open source
 slider
 
 package => npm
+
    ||
 
 package.json
+//////
+Functional
+light in weight with less functionality
+
+
+ClassBased
+Heavy in weight with more functionality
+
+
+state
+local variable
+
+props
+use to send the data
+
+
+                    props
+ComponentA          =======>      ComponentB
+state="movies"                     state
+
+
+
+function add(a,b){
+    return a+b
+}
+
+
+const add = (a,b) => {
+    return a+b
+}
