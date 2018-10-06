@@ -2,12 +2,28 @@ import React, {Component} from 'react';
 
 // class based
 class Header extends Component{
-    render(){
+    constructor(props){
+        super(props)
 
+        this.state = {
+            name:'Kishore'
+        }
+    }
+
+    inputChange(event){
+        this.setState({name:event.target.value})
+        console.log(event.target.value)
+    }
+    render(){
         return (
             <header>
-                <div className="logo">Logo</div>
-                <input />
+                <div className="logo"
+                onClick={()=>{console.log("hii from logo")}}>Logo</div>
+                <center>
+                
+                <input onChange={this.inputChange.bind(this)}/>
+                <h2>Search on basis of :{this.state.name}</h2>
+                </center>
             </header>
             )
     }
