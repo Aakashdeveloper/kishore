@@ -13,6 +13,7 @@ class Header extends Component{
     inputChange(event){
         this.setState({name:event.target.value})
         console.log(event.target.value)
+        this.props.newsSearch(event.target.value)
     }
     render(){
         return (

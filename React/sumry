@@ -50,3 +50,8 @@ function add(a,b){
 const add = (a,b) => {
     return a+b
 }
+
+
+npm install -g json-server
+
+json-server --watch db.json  --port 7800
