@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 import Banner from '../components/banner';
+import Artistlist from '../components/artistList';
 
 const URL_ARTISTS = ' http://localhost:6780/artists';
 
@@ -31,6 +32,7 @@ class Home extends Component{
         return(
             <div>
                 <Banner></Banner>
+                <Artistlist allArtists={this.state.artists}></Artistlist>
             </div>
         )
     }
